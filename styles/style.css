@@ -16,8 +16,8 @@
 --------------- */
 
 body {
-  background-color: var(--light-orange);
   font-family: var(--primary-font);
+  background-color: var(--light-orange);
 }
 
 * {
@@ -31,7 +31,7 @@ body {
    --------------- */
 
 .container {
-  padding: 0 65px;
+  padding: 0 85px;
   width: 100%;
   max-width: 1250px;
   margin: 0 auto;
@@ -56,7 +56,7 @@ li {
 nav > ul {
   display: flex;
   list-style: none;
-  gap: 60px;
+  gap: 50px;
 }
 
 /* -------------
@@ -69,7 +69,7 @@ nav > ul {
     align-items: center;
     justify-items: center;
     text-align: center;
-    margin: 100px 0;
+    margin: 100px 0 50px 0;
    }
 
 .section-title {
@@ -101,3 +101,53 @@ font-size: 20px;
     border-radius: 10px;
     margin: 40px 0 30px 0;
 }
+
+/* -------------
+    feature styles
+   --------------- */
+
+   .fetures-section {
+    display: flex;
+    justify-content: center;
+    background-color: white; 
+    padding: 50px 0px 100px 160px;
+    align-items: center;
+   }
+   
+   .img-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+   }
+
+   .img-section img {
+    width: 280px;
+    height: 280px;
+   }
+
+   .fetures-details{
+    padding: 0 50px;
+   }
+
+   .fetures-title{
+font-size: 45px;
+line-height: 53px;
+   }
+
+   .span-1{
+    font-weight: 500;
+    color: var(--gray);
+   }
+
+   .span-2{
+    color: var(--hot-orange);
+   }
+
+   .feture-des{
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--gray);
+    padding: 30px 0;
+   }
+
