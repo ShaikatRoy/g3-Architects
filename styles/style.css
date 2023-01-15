@@ -263,7 +263,16 @@ nav > ul {
   border: 1px solid coral;
   padding: 50px;
   border-radius: 8px;
+  transition: transform  0.3s ease-in-out;
 }
+
+/*------------- hover ------------- */
+
+.box:hover {
+    transform: scale(1.2);
+    color: var(--light-orange);
+  }
+  
 
 .box-title {
   color: #424242;
@@ -276,8 +285,8 @@ nav > ul {
 }
 
 /* ------------------
-             sopnspors section
-             ------------------ */
+    sopnspors section
+ ------------------ */
 
 .sponspors-section {
     background-color: white;
@@ -328,3 +337,18 @@ padding: 100px;
     margin: auto;
     border-radius: 8px;
 }
+
+/*--------------------------
+          media queries
+-----------------------------*/
+
+/* styles for screens smaller than 600px */
+
+
+@media only screen and (max-width: 600px) {
+    
+  }
+
+
+  
+  
