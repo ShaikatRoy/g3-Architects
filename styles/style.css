@@ -1,0 +1,103 @@
+/* -------------
+    custom class
+--------------- */
+
+:root {
+  --black: hsl(0, 0%, 11%);
+  --dark-gray: #424242;
+  --gray: #727272;
+  --light-orange: rgba(255, 143, 14, 0.082);
+  --hot-orange: #ff900e;
+  --primary-font: "Work Sans", sans-serif;
+}
+
+/* -------------
+       body
+--------------- */
+
+body {
+  background-color: var(--light-orange);
+  font-family: var(--primary-font);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* -------------
+    nav styles
+   --------------- */
+
+.container {
+  padding: 0 65px;
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+.nav-title {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+li {
+  font-size: 16px;
+  color: var(--dark-gray);
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+}
+
+/* -------------
+    banner styles
+   --------------- */
+
+   .section-header{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin: 100px 0;
+   }
+
+.section-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 65px;
+}
+
+.section-des{
+font-size: 16px;
+line-height: 26px;
+color: var(--gray);
+margin: 30px 0 30px 0;
+}
+
+.btn-primary{
+width: 178px;
+height: 62px;
+background-color: var(--hot-orange);
+color: white;
+border: none;
+border-radius: 5px;
+font-size: 20px;
+}
+
+.banner-img{
+    width: 75%;
+    height: 50%;
+    border-radius: 10px;
+    margin: 40px 0 30px 0;
+}
