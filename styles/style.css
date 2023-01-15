@@ -20,7 +20,7 @@ body {
   background-color: var(--light-orange);
 }
 
-* {
+*{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -161,10 +161,6 @@ line-height: 53px;
     padding: 0 100px;
    }
 
-   .blog-details{
-
-   }
-
    .blog-title{
     font-weight: bold;
     font-size: 40px;
@@ -188,7 +184,7 @@ line-height: 53px;
    .card-section{
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 25px;
     margin-bottom: 200px;
    }
    
@@ -231,4 +227,53 @@ line-height: 53px;
     z-index: 1;
 
    }
+
+
+   /* -----------------
+        fact section
+     ---------------- */
+
+     .fact-section{
+        background-color: white;
+        
+     }
+
+     .fact-title{
+        font-weight: bold;
+        font-size: 45px;
+        padding-left: 150px;
+     }
+
+     .fact-des{
+        font-size: 16px;
+        line-height: 26px;
+         color: var(--gray);   
+         padding: 10px 0 80px 150px;
+     }
+
+     .boxes{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 300px;
+        gap: 25px;   
+     }
+     
+     .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid coral;
+        padding: 50px;
+        border-radius: 8px;
+     }
+
+     .box-title{
+        	color: #424242;
+            font-size: 40px;
+     }
+
+     .box-des{
+        color: #727272;
+        Font size: 20px ;
+     }
 
